@@ -1,8 +1,8 @@
 #Given an array, return the first recurring character
-#Undefined if none
+#Return None if there are no recurring characters
 
 #eg. IN => [2,4,1,3,4,1,2] | OUT => 4
-#    IN => [1,3,4,5,6,7]   | OUT => undefined
+#    IN => [1,3,4,5,6,7]   | OUT => None
 
 #Time/Space O(n)
 def first_recurring(arr):
