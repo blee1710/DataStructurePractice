@@ -11,6 +11,7 @@ EG. IN => 8 || OUT => 21
 """
 
 # O(2^n)
+# adds readability, but call stack memory is higher (no tail call optimisation)
 def fibonacciRecursive(num):
     if num < 2:
         return num
